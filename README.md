@@ -1,4 +1,4 @@
-# Reminder Bot (MAUI Blazor Hybrid Application)
+# Reminder Bot (.NET8 Avalonia UI)
 
 ## Overview
 The **Reminder Bot** is a lightweight cross-platform application written in `.NET 8` (future plans for `.NET 9`). It helps users stay productive and maintain healthy habits by sending periodic reminders with priority-based notifications. Users can customize reminders, configure notification priorities, and snooze reminders with multiple options.
@@ -8,7 +8,7 @@ The **Reminder Bot** is a lightweight cross-platform application written in `.NE
 ## Features
 1. **Cross-Platform Support**:
    - Runs on Windows, macOS, iOS, and Android.
-   - Utilizes .NET MAUI Blazor Hybrid for a web-like UI with native functionality.
+   - Utilizes Avalonia UI
 
 2. **Customizable Reminders**:
    - Configure reminders with custom messages, intervals, and priorities.
@@ -21,7 +21,7 @@ The **Reminder Bot** is a lightweight cross-platform application written in `.NE
    - Postpone notifications by 5, 10, or 15 minutes.
 
 5. **UI for Settings**:
-   - Blazor-based interface to manage reminders and their schedules.
+   - Avalonia UI based Frontend and System tray icon for user settings.
 
 6. **Unit Testing**:
    - Solid test coverage for core functionality to ensure reliability.
