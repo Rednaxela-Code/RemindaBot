@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemindaBot.Infrastructure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemindaBot.Tests", "RemindaBot.Tests\RemindaBot.Tests.csproj", "{5CFF1D28-71E4-44EC-87FD-497D379B1F83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemindaBot.UI", "RemindaBot.UI\RemindaBot.UI.csproj", "{28F92BFE-E099-468D-BC3C-0208A829C109}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{5CFF1D28-71E4-44EC-87FD-497D379B1F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CFF1D28-71E4-44EC-87FD-497D379B1F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CFF1D28-71E4-44EC-87FD-497D379B1F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F92BFE-E099-468D-BC3C-0208A829C109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F92BFE-E099-468D-BC3C-0208A829C109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F92BFE-E099-468D-BC3C-0208A829C109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F92BFE-E099-468D-BC3C-0208A829C109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

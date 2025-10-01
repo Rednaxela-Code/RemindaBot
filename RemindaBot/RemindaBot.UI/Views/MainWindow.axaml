@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:RemindaBot.UI.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="RemindaBot.UI.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="RemindaBot.UI"
+        Background="AliceBlue">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+
+    <TabControl Margin="2">
+        <TabItem Classes="tabText" Header="Settings">
+            <TextBlock Classes="text" Text="{Binding Greeting}" 
+                       HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </TabItem>
+        <TabItem Classes="tabText" Header="Reminders">
+            <TextBlock Classes="text" Text="Reminders will be managed here" 
+                       HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </TabItem>
+    </TabControl>
+
+<Window.Styles>
+    <Style Selector="TabItem.tabText">
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+    
+    <Style Selector="TextBlock.text">
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+</Window.Styles>
+</Window>
